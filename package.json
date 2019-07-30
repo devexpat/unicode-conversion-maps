@@ -5,8 +5,8 @@
   "main": "dist/maps.umd.js",
   "module": "dist/maps.js",
   "repository": "https://github.com/devexpat/vivarthanam-unicode-conversion-maps",
-  "author": "Akshay S Dinesh <asdofindia@gmail.com> , Manoj Mohanan<devexpat@gmail.com>",
-  "license": "MIT",
+  "author": "Manoj Mohanan<devexpat@gmail.com>",
+  "license": "GPL",
   "scripts": {
     "prebuild": "npm run createMaps && eslint lib test",
     "createMaps": "node scripts/createMaps.js",
